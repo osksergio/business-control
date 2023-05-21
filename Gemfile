@@ -9,6 +9,7 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.7', '>= 6.1.7.3'
 gem 'sassc-rails'
 gem 'sqlite3', '~> 1.4'
+gem 'rubocop', '~> 1.51'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
