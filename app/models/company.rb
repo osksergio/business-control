@@ -7,4 +7,5 @@ class Company < ApplicationRecord
                                        to_short: 'Pick a longer name (min. 3)',
                                        to_long: 'Pick a shorter name (max. 60)'
   validates_length_of :fantasy_name, in: 3..40
+  validates :is_active, inclusion: { in: [true, false] }
 end
