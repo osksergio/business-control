@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get 'companies/index', to: 'companies#index', as: 'index_company'
   get 'companies/show/:id', to: 'companies#show', as: 'show_company'
   delete 'companies/destroy/:id', to: 'companies#destroy', as: 'delete_company'
+  post 'companies/create', to: 'companies#create', as: 'create_company'
+  put 'companies/update/:id', to: 'companies#update', as: 'update_company'
 end
